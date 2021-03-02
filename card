@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Вклады",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "safe"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Пополняй ОнЛ@йн 1г - 2г (руб.)",
+                  "typeface": "body1",
+                  "text_color": "default"
+                },
+                "subtitle": {
+                  "text": "∙∙ 9139",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 086,81 ₽",
+                "typeface": "body1",
+                "text_color": "brand"
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "top"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
