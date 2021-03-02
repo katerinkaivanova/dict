@@ -1,4 +1,4 @@
-{
+ {
   "type": "list_card",
   "cells": [
     {
@@ -10,10 +10,10 @@
         "max_lines": 2
       },
       "paddings": {
+        "left": "8x",
         "top": "6x",
         "right": "8x",
-        "bottom": "8x",
-        "left": "8x"
+        "bottom": "8x"
       }
     },
     {
@@ -129,4 +129,4 @@
       ]
     }
   ]
-}
+ }
