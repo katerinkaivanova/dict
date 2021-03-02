@@ -1,4 +1,5 @@
 {
+  "type": "list_card",
   "cells": [
     {
       "type": "text_cell_view",
