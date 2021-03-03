@@ -43,15 +43,30 @@
           },
           "tint_color": "solid_brand"
         },
-        "title": {
-          "text": "По ФИО и номеру телефона",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x",
-            "left": "8x"
+        "texts": {
+          "title": {
+            "text": "По ФИО и номеру телефона",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 1,
+            "margins": {
+              "top": "2x",
+              "right": "0x",
+              "bottom": "2x",
+              "left": "0x"
+            }
+          },
+          "title": {
+            "text": "Для выплаты наличными",
+            "typeface": "footnote1",
+            "text_color": "default",
+            "max_lines": 1,
+            "margins": {
+              "top": "2x",
+              "right": "0x",
+              "bottom": "2x",
+              "left": "0x"
+            }
           }
         }
       },
@@ -66,7 +81,7 @@
       "actions": [
         {
           "type": "deep_link",
-          "deep_link": ""
+          "deep_link": "sberbankonline://payments/services?cs=83726529076&t=0J7Qv9C70LDRgtCwINGI0YLRgNCw0YTQsCDQv9C-INCj0JjQnQ"
         }
       ]
     }
