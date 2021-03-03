@@ -56,10 +56,10 @@
               "left": "0x"
             }
           },
-          "title": {
+          "subtitle": {
             "text": "Для выплаты наличными",
             "typeface": "footnote1",
-            "text_color": "default",
+            "text_color": "secondary",
             "max_lines": 1,
             "margins": {
               "top": "2x",
