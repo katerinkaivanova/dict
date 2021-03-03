@@ -83,7 +83,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "round_speech_buble_question"
+            "identificator": "round_speech_bubble_question"
           },
           "size": {
             "width": "medium",
