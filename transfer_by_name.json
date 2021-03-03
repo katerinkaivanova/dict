@@ -4,25 +4,25 @@
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Делайте переводы за рубеж\nв СберБанк Онлайн",
+        "text": "Делайте переводы за рубеж в СберБанк Онлайн",
         "typeface": "headline3",
         "text_color": "default",
         "max_lines": 2
       },
       "paddings": {
-        "left": "8x",
-        "top": "6x",
-        "right": "8x",
-        "bottom": "8x"
+        "top": "16x",
+        "right": "16x",
+        "bottom": "0x",
+        "left": "16x"
       }
     },
     {
       "type": "left_right_cell_view",
       "paddings": {
-        "left": "0x",
-        "top": "6x",
-        "right": "0x",
-        "bottom": "8x"
+        "top": "12x",
+        "right": "16x",
+        "bottom": "8x",
+        "left": "16x"
       },
       "left": {
         "type": "simple_left_view",
@@ -36,10 +36,10 @@
             "height": "medium"
           },
           "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
-            "left": "8x"
+            "top": "14x",
+            "right": "14x",
+            "bottom": "12x",
+            "left": "0x"
           },
           "tint_color": "solid_brand"
         },
@@ -48,13 +48,7 @@
             "text": "По ФИО и номеру телефона",
             "typeface": "body1",
             "text_color": "default",
-            "max_lines": 1,
-            "margins": {
-              "top": "2x",
-              "right": "0x",
-              "bottom": "2x",
-              "left": "0x"
-            }
+            "max_lines": 1
           },
           "subtitle": {
             "text": "Для выплаты наличными",
@@ -62,10 +56,7 @@
             "text_color": "secondary",
             "max_lines": 1,
             "margins": {
-              "top": "2x",
-              "right": "0x",
-              "bottom": "2x",
-              "left": "0x"
+              "top": "2x"
             }
           }
         }
@@ -73,15 +64,16 @@
       "right": {
         "type": "disclosure_right_view",
         "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
+          "top": "7x",
+          "right": "0x",
+          "bottom": "7x",
+          "left": "0x"
         }
       },
       "actions": [
         {
           "type": "deep_link",
-          "deep_link": "sberbankonline://payments/services?cs=83726529076&t=0J7Qv9C70LDRgtCwINGI0YLRgNCw0YTQsCDQv9C-INCj0JjQnQ"
+          "deep_link": ""
         }
       ]
     }
