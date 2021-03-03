@@ -71,6 +71,21 @@
       ]
     },
     {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Делайте переводы за рубеж\nв СберБанк Онлайн",
+        "typeface": "headline3",
+        "text_color": "default",
+        "max_lines": 2
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "6x",
+        "right": "8x",
+        "bottom": "8x"
+      }
+    },
+    {
       "type": "left_right_cell_view",
       "paddings": {
         "left": "0x",
