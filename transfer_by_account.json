@@ -1,0 +1,78 @@
+{
+  "type": "list_card",
+  "cells": [
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Делайте переводы за рубеж в СберБанк Онлайн",
+        "typeface": "headline3",
+        "text_color": "default",
+        "max_lines": 2
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "6x",
+        "right": "8x",
+        "bottom": "8x"
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "document"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "texts": {
+          "title": {
+            "text": "По номеру счёта",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "subtitle": {
+            "text": "Для зачисления на банковский счёт",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "deep_link",
+          "deep_link": "{% if main_form.device_info.platformType|lower == 'ios' %}sberbankonline://payments/international-transfer-by-account-number{% elif main_form.env == 'alpha' %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/overseas/by-account-number{% else %}sberbankonline://payments/international-transfer-by-account-number{% endif %}"
+        }
+      ]
+    }
+  ]
+}
