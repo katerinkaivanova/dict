@@ -81,7 +81,7 @@
       "actions": [
         {
           "type": "deep_link",
-          "deep_link": "sberbankonline://abroadTransferCashPayment"
+          "deep_link": "{% if main_form.device_info.platformType|lower == 'ios' %}sberbankonline://abroadTransferCashPayment{% elif main_form.env == 'alpha' %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/abroad/ondemand{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/transfers/abroad/ondemand{% endif %}"
         }
       ]
     }
