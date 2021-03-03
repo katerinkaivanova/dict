@@ -10,19 +10,19 @@
         "max_lines": 2
       },
       "paddings": {
-        "top": "16x",
-        "right": "16x",
-        "bottom": "0x",
-        "left": "16x"
+        "left": "8x",
+        "top": "6x",
+        "right": "8x",
+        "bottom": "8x"
       }
     },
     {
       "type": "left_right_cell_view",
       "paddings": {
-        "top": "12x",
-        "right": "16x",
-        "bottom": "8x",
-        "left": "16x"
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
       },
       "left": {
         "type": "simple_left_view",
@@ -36,10 +36,10 @@
             "height": "medium"
           },
           "margins": {
-            "top": "12x",
-            "right": "12x",
-            "bottom": "12x",
-            "left": "0x"
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
           },
           "tint_color": "solid_brand"
         },
@@ -64,10 +64,9 @@
       "right": {
         "type": "disclosure_right_view",
         "margins": {
-          "top": "7x",
-          "right": "0x",
-          "bottom": "7x",
-          "left": "0x"
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
         }
       },
       "actions": [
