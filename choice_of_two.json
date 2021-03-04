@@ -48,10 +48,16 @@
           "tint_color": "solid_brand"
         },
         "title": {
-            "text": "По реквизитам получателя",
-            "typeface": "body1",
-            "text_color": "default"
+          "text": "По реквизитам получателя",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
           }
+        }
       },
       "right": {
         "type": "disclosure_right_view",
@@ -96,10 +102,16 @@
           "tint_color": "solid_brand"
         },
         "title": {
-            "text": "По способу получения денег",
-            "typeface": "body1",
-            "text_color": "default"
+          "text": "По способу получения денег",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
           }
+        }
       },
       "right": {
         "type": "disclosure_right_view",
