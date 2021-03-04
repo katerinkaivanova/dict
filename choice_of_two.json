@@ -87,7 +87,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "banknote"
+            "identificator": "paw"
           },
           "size": {
             "width": "medium",
