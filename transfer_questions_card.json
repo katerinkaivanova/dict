@@ -1,0 +1,169 @@
+{
+  "type": "list_card",
+  "cells": [
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "О сервисе",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "deep_link",
+          "deep_link": ""
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "Комиссия",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "deep_link",
+          "deep_link": ""
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "Срок перевода",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "deep_link",
+          "deep_link": ""
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "Максимальная сумма",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "deep_link",
+          "deep_link": ""
+        }
+      ]
+    }
+  ]
+}
