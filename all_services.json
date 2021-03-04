@@ -20,7 +20,7 @@
       "type": "left_right_cell_view",
       "divider": {
         "style": "default",
-        "size": "d3"
+        "size": "d4"
       },
       "paddings": {
         "left": "0x",
@@ -82,7 +82,7 @@
       "type": "left_right_cell_view",
       "divider": {
         "style": "default",
-        "size": "d3"
+        "size": "d4"
       },
       "paddings": {
         "left": "0x",
@@ -144,7 +144,7 @@
       "type": "left_right_cell_view",
       "divider": {
         "style": "default",
-        "size": "d3"
+        "size": "d4"
       },
       "paddings": {
         "left": "0x",
