@@ -20,7 +20,7 @@
       "type": "left_right_cell_view",
       "divider": {
         "style": "default",
-        "size": "d3"
+        "size": "d5"
       },
       "paddings": {
         "left": "0x",
@@ -87,7 +87,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "banknotes"
+            "identificator": "banknote"
           },
           "size": {
             "width": "medium",
