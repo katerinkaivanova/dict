@@ -4,7 +4,7 @@
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Делайте переводы за рубеж в СберБанк Онлайн",
+        "text": "Делайте переводы за рубеж\nв СберБанк Онлайн",
         "typeface": "headline3",
         "text_color": "default",
         "max_lines": 2
@@ -29,7 +29,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "mobile"
+            "identificator": "document"
           },
           "size": {
             "width": "medium",
@@ -45,12 +45,12 @@
         },
         "texts": {
           "title": {
-            "text": "По номеру телефона",
+            "text": "По номеру счёта",
             "typeface": "body1",
             "text_color": "default"
           },
           "subtitle": {
-            "text": "На карту или счёт",
+            "text": "Для зачисления на банковский счёт",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
@@ -70,7 +70,7 @@
       "actions": [
         {
           "type": "deep_link",
-          "deep_link": "{% if main_form.device_info.platformType|lower == 'ios' %}sberbankonline://foreignbank{% elif main_form.env == 'alpha' %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/overseas/foreignbank{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/overseas/foreignbank{% endif %}"
+          "deep_link": "{% if main_form.device_info.platformType|lower == 'ios' %}sberbankonline://payments/international-transfer-by-account-number{% elif main_form.env == 'alpha' %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/overseas/by-account-number{% else %}sberbankonline://payments/international-transfer-by-account-number{% endif %}"
         }
       ]
     }
