@@ -8,7 +8,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "sber"
+            "identificator": "paw"
           },
           "size": {
             "width": "medium",
@@ -30,7 +30,7 @@
           "margins": {
             "top": "9x",
             "bottom": "9x",
-            "left": "8x"
+            "left": "0x"
           }
         }
       },
