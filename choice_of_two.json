@@ -4,7 +4,7 @@
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Делайте переводы за рубеж в СберБанк Онлайн",
+        "text": "Подбор сервиса\nперевода за рубеж",
         "typeface": "headline3",
         "text_color": "default",
         "max_lines": 2
@@ -20,69 +20,7 @@
       "type": "left_right_cell_view",
       "divider": {
         "style": "default",
-        "size": "d4"
-      },
-      "paddings": {
-        "left": "0x",
-        "top": "6x",
-        "right": "0x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "user"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
-            "left": "8x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "texts": {
-          "title": {
-            "text": "По ФИО и номеру телефона",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "subtitle": {
-            "text": "Для выплаты наличными",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "actions": [
-        {
-          "type": "deep_link",
-          "deep_link": "{% if main_form.device_info.platformType|lower == 'ios' %}sberbankonline://abroadTransferCashPayment{% elif main_form.env == 'alpha' %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/abroad/ondemand{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/transfers/abroad/ondemand{% endif %}"
-        }
-      ]
-    },
-    {
-      "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d4"
+        "size": "d5"
       },
       "paddings": {
         "left": "0x",
@@ -109,81 +47,15 @@
           },
           "tint_color": "solid_brand"
         },
-        "texts": {
-          "title": {
-            "text": "По номеру счёта",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "subtitle": {
-            "text": "Для зачисления на банковский счёт",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "actions": [
-        {
-          "type": "deep_link",
-          "deep_link": "{% if main_form.device_info.platformType|lower == 'ios' %}sberbankonline://payments/international-transfer-by-account-number{% elif main_form.env == 'alpha' %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/overseas/by-account-number{% else %}sberbankonline://payments/international-transfer-by-account-number{% endif %}"
-        }
-      ]
-    },
-    {
-      "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d4"
-      },
-      "paddings": {
-        "left": "0x",
-        "top": "6x",
-        "right": "0x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "card"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
+        "title": {
+          "text": "По реквизитам получателя",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
           "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
+            "top": "9x",
+            "bottom": "9x",
             "left": "8x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "texts": {
-          "title": {
-            "text": "По номеру карты",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "subtitle": {
-            "text": "На карты Visa и Mastercard",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
           }
         }
       },
@@ -197,8 +69,8 @@
       },
       "actions": [
         {
-          "type": "deep_link",
-          "deep_link": "{% if main_form.device_info.platformType|lower == 'ios' %}sberbankonline://payments/international-transfer-by-card-number{% elif main_form.env == 'alpha' %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/overseas/P2POverseasCardTransfer{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/transfers/overseas/P2POverseasCardTransfer{% endif %}"
+          "type": "text",
+          "text": "По реквизитам получателя"
         }
       ]
     },
@@ -215,7 +87,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "mobile"
+            "identificator": "paw"
           },
           "size": {
             "width": "medium",
@@ -229,19 +101,15 @@
           },
           "tint_color": "solid_brand"
         },
-        "texts": {
-          "title": {
-            "text": "По номеру телефона",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "subtitle": {
-            "text": "На карту или счёт",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
+        "title": {
+          "text": "По способу получения денег",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
           }
         }
       },
@@ -255,8 +123,8 @@
       },
       "actions": [
         {
-          "type": "deep_link",
-          "deep_link": "{% if main_form.device_info.platformType|lower == 'ios' %}sberbankonline://foreignbank{% elif main_form.env == 'alpha' %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/overseas/foreignbank{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/overseas/foreignbank{% endif %}"
+          "type": "text",
+          "text": "По способу получения денег"
         }
       ]
     }
