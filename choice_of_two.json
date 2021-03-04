@@ -33,7 +33,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "account"
+            "identificator": "document"
           },
           "size": {
             "width": "medium",
