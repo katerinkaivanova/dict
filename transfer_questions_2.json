@@ -1,0 +1,165 @@
+{
+  "type": "list_card",
+  "cells": [
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "Доступные страны для перевода",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Доступные страны для перевода"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "Реквизиты",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Реквизиты"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "Статус перевода",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Статус перевода"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "Как отменить или изменить перевод",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Как отменить или изменить перевод"
+        }
+      ]
+    }
+  ]
+}
