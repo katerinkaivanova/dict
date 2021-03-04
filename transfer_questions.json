@@ -37,8 +37,8 @@
       },
       "actions": [
         {
-          "type": "deep_link",
-          "deep_link": ""
+          "type": "text",
+          "text": "О сервисе"
         }
       ]
     },
@@ -78,8 +78,8 @@
       },
       "actions": [
         {
-          "type": "deep_link",
-          "deep_link": ""
+          "type": "text",
+          "text": "Комиссия"
         }
       ]
     },
@@ -119,8 +119,8 @@
       },
       "actions": [
         {
-          "type": "deep_link",
-          "deep_link": ""
+          "type": "text",
+          "text": "Срок перевода"
         }
       ]
     },
@@ -156,8 +156,8 @@
       },
       "actions": [
         {
-          "type": "deep_link",
-          "deep_link": ""
+          "type": "text",
+          "text": "Максимальная сумма"
         }
       ]
     }
