@@ -69,8 +69,8 @@
       },
       "actions": [
         {
-          "type": "deep_link",
-          "deep_link": ""
+          "type": "text",
+          "text": "По реквизитам получателя"
         }
       ]
     },
@@ -123,8 +123,8 @@
       },
       "actions": [
         {
-          "type": "deep_link",
-          "deep_link": ""
+          "type": "text",
+          "text": "По способу получения денег"
         }
       ]
     }
