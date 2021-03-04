@@ -87,7 +87,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "atm_banknote"
+            "identificator": "banknotes"
           },
           "size": {
             "width": "medium",
