@@ -44,8 +44,8 @@
       },
       "actions": [
         {
-          "type": "text",
-          "text": "Перейти на сайт СберБанка"
+          "type": "deep_link",
+          "deep_link": "https://www.sberbank.ru/ru/person/remittance"
         }
       ]
     }
