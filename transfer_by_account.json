@@ -70,7 +70,7 @@
       "actions": [
         {
           "type": "deep_link",
-          "deep_link": "{% if main_form.device_info.platformType|lower == 'ios' %}sberbankonline://payments/international-transfer-by-account-number{% elif main_form.env == 'alpha' %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/overseas/by-account-number{% else %}sberbankonline://payments/international-transfer-by-account-number{% endif %}"
+          "deep_link": "{% if main_form.device_info.platformType|lower == 'ios' %}sberbankonline://payments/international-transfer-by-account-number{% elif main_form.env == 'alpha' %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/transfers/overseas/by-account-number{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/transfers/overseas/by-account-number{% endif %}"
         }
       ]
     }
