@@ -1,0 +1,205 @@
+{
+  "type": "list_card",
+  "cells": [
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Перевод клиенту Сбербанка",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "3x",
+              "bottom": "1x",
+              "left": "3x"
+            }
+          },
+          "subtitle": {
+            "text": "Перевести",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        },
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Перевод клиенту Сбербанка"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Перевод между своими счетами",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "3x",
+              "bottom": "1x",
+              "left": "3x"
+            }
+          },
+          "subtitle": {
+            "text": "Перевести",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        },
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Перевод между своими счетами"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Оплата мобильной связи",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "3x",
+              "bottom": "1x",
+              "left": "3x"
+            }
+          },
+          "subtitle": {
+            "text": "Оплатить",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        },
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "mobile"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "deep_link": "Оплата мобильной связи"
+        }
+      ]
+    }
+  ]
+}
