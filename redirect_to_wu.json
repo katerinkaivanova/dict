@@ -7,8 +7,8 @@
         "type": "simple_left_view",
         "icon": {
           "address": {
-            "type": "local",
-            "identificator": "WU"
+            "type": "url",
+            "url": "https://va-res.online.sberbank.ru/VA/icons/wu.png"
           },
           "size": {
             "width": "medium",
