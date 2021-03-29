@@ -87,7 +87,7 @@
         "icon": {
           "address": {
             "type": "url",
-            "identificator": "https://va-res.online.sberbank.ru/VA/icons/ic_36_banknote_1x.png"
+            "url": "https://va-res.online.sberbank.ru/VA/icons/ic_36_banknote_1x.png"
           },
           "size": {
             "width": "medium",
