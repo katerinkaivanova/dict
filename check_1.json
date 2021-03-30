@@ -1,0 +1,267 @@
+# Headers: []
+{
+  "messageId": 3,
+  "uuid": {
+    "userChannel": "SBOL",
+    "userId": "local_testing_1",
+    "sub": "d2d6da62-6bdd-452b-b5dd-a145090075ba"
+  },
+  "sessionId": "86024848-c12b-4056-b58b-93c69b412314",
+  "messageName": "ANSWER_TO_USER",
+  "payload": {
+    "device": {
+      "platformType": "IOS",
+      "platformVersion": "12.1",
+      "surface": "SBOL",
+      "surfaceVersion": "11.5",
+      "capabilities": {
+        "screen": {
+          "available": true
+        },
+        "speak": {
+          "available": true
+        }
+      },
+      "additionalInfo": {}
+    },
+    "intent": "tgp",
+    "projectName": "Тестовый навык в каталоге",
+    "pronounceText": "Какие у вас есть данные о получателе перевода?",
+    "items": [
+      {
+        "bubble": {
+          "text": "Какие у вас есть данные о получателе перевода?",
+          "markdown": true
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              },
+              "paddings": {
+                "left": "0x",
+                "top": "6x",
+                "right": "0x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "title": {
+                  "text": "ФИО и номер телефона получателя",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1,
+                  "margins": {
+                    "top": "9x",
+                    "bottom": "9x",
+                    "left": "8x"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "top": "8x",
+                  "right": "4x",
+                  "bottom": "8x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "фио и номер телефона получателя"
+                }
+              ]
+            },
+            {
+              "type": "left_right_cell_view",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              },
+              "paddings": {
+                "left": "0x",
+                "top": "6x",
+                "right": "0x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "title": {
+                  "text": "Номер счёта получателя",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1,
+                  "margins": {
+                    "top": "9x",
+                    "bottom": "9x",
+                    "left": "8x"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "top": "8x",
+                  "right": "4x",
+                  "bottom": "8x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "номер счёта получателя"
+                }
+              ]
+            },
+            {
+              "type": "left_right_cell_view",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              },
+              "paddings": {
+                "left": "0x",
+                "top": "6x",
+                "right": "0x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "title": {
+                  "text": "Номер карты Visa или Mastecard",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1,
+                  "margins": {
+                    "top": "9x",
+                    "bottom": "9x",
+                    "left": "8x"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "top": "8x",
+                  "right": "4x",
+                  "bottom": "8x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "номер карты visa или mastecard"
+                }
+              ]
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "0x",
+                "top": "6x",
+                "right": "0x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "title": {
+                  "text": "Номер мобильного телефона",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1,
+                  "margins": {
+                    "top": "9x",
+                    "bottom": "9x",
+                    "left": "8x"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "top": "8x",
+                  "right": "4x",
+                  "bottom": "8x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "номер мобильного телефона"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "round_speech_bubble_question"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "top": "5x",
+                    "right": "6x",
+                    "bottom": "5x",
+                    "left": "8x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "title": {
+                  "text": "Часто задаваемые вопросы",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1,
+                  "margins": {
+                    "top": "9x",
+                    "bottom": "9x",
+                    "left": "8x"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "top": "8x",
+                  "right": "4x",
+                  "bottom": "8x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "часто задаваемые вопросы"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "auto_listening": true,
+    "finished": false,
+    "historyData": {
+      "events": [],
+      "projectName": "Тестовый навык в каталоге"
+    }
+  }
+}
