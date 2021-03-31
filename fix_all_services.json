@@ -1,0 +1,264 @@
+{
+  "type": "list_card",
+  "cells": [
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Делайте переводы за рубеж\n в СберБанк Онлайн",
+        "typeface": "headline3",
+        "text_color": "default",
+        "max_lines": 2
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "6x",
+        "right": "8x",
+        "bottom": "8x"
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "user"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "texts": {
+          "title": {
+            "text": "По ФИО и номеру телефона",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "subtitle": {
+            "text": "Для выплаты наличными",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "по ФИО и номеру телефона"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "document"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "texts": {
+          "title": {
+            "text": "По номеру счёта",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "subtitle": {
+            "text": "Для зачисления на банковский счёт",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "по номеру счёта"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "card"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "texts": {
+          "title": {
+            "text": "По номеру карты",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "subtitle": {
+            "text": "На карты Visa и Mastercard",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "по номеру карты"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "mobile"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "texts": {
+          "title": {
+            "text": "По номеру телефона",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "subtitle": {
+            "text": "На карту или счёт",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "deep_link": "по номеру телефона"
+        }
+      ]
+    }
+  ]
+}
