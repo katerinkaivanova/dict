@@ -25,13 +25,7 @@
         "title": {
           "text": "Часто задаваемые вопросы",
           "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x",
-            "left": "8x"
-          }
+          "text_color": "default"
         }
       },
       "right": {
